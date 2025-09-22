@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mon Site — Moderne & Gratuit</title>
+  <meta name="description" content="Un site simple, moderne et rapide — prêt à être publié gratuitement (GitHub Pages, Netlify, Vercel).">
+  <meta property="og:title" content="Mon Site — Moderne & Gratuit">
+  <meta property="og:description" content="Un site simple, moderne et rapide — prêt à être publié gratuitement.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og-image.png">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="styles.css" as="style">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Aller en haut">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 2l9 5v10l-9 5-9-5V7l9-5z" stroke="currentColor" stroke-width="1.5"/>
+          <circle cx="12" cy="12" r="3" fill="currentColor"/>
+        </svg>
+        <span>Mon&nbsp;Site</span>
+      </a>
+      <nav class="nav">
+        <a href="#features">Fonctionnalités</a>
+        <a href="#prix">Tarifs</a>
+        <a href="#a-propos">À propos</a>
+        <a href="#contact" class="btn primary">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1>Un site rapide, <span class="gradient">beau</span> et gratuit</h1>
+          <p>Modifiez ce modèle et publiez-le en quelques minutes sur GitHub Pages, Netlify ou Vercel — sans carte bancaire.</p>
+          <div class="cta-row">
+            <a href="#features" class="btn primary">Découvrir</a>
+            <a href="#contact" class="btn ghost">Parler ensemble</a>
+          </div>
+          <ul class="trust">
+            <li>⚡ Performant</li>
+            <li>📱 Responsive</li>
+            <li>🔒 Respecte la vie privée</li>
+          </ul>
+        </div>
+        <div class="hero-right">
+          <div class="card preview">
+            <div class="browser-bar"><span></span><span></span><span></span></div>
+            <div class="preview-grid">
+              <div class="tile"></div><div class="tile"></div><div class="tile"></div>
+              <div class="tile wide"></div><div class="tile"></div><div class="tile"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="wave" aria-hidden="true"></div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <h2>Fonctionnalités incluses</h2>
+        <p class="intro">Tout ce qu’il faut pour commencer sans prise de tête.</p>
+        <div class="grid features">
+          <article class="feature">
+            <div class="icon">🚀</div>
+            <h3>Ultra rapide</h3>
+            <p>HTML/CSS/JS sans dépendances lourdes. Score Lighthouse facile à optimiser.</p>
+          </article>
+          <article class="feature">
+            <div class="icon">🧱</div>
+            <h3>Facile à modifier</h3>
+            <p>Code clair et commenté, styles organisés, sections réutilisables.</p>
+          </article>
+          <article class="feature">
+            <div class="icon">🔍</div>
+            <h3>SEO de base</h3>
+            <p>Métadonnées, balises accessibles, structure sémantique et performances.</p>
+          </article>
+          <article class="feature">
+            <div class="icon">📬</div>
+            <h3>Formulaire</h3>
+            <p>Formulaire de contact prêt pour Formspree / Netlify Forms (optionnel).</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="prix" class="section alt">
+      <div class="container">
+        <h2>Tarifs</h2>
+        <p class="intro">Vous pouvez supprimer cette section si vous n’en avez pas besoin.</p>
+        <div class="pricing">
+          <div class="plan">
+            <h3>Gratuit</h3>
+            <p class="price">0 €</p>
+            <ul>
+              <li>Hébergement GitHub Pages</li>
+              <li>Certificat HTTPS</li>
+              <li>Domaine *.github.io</li>
+            </ul>
+            <a href="#" class="btn outline">Choisir</a>
+          </div>
+          <div class="plan featured">
+            <h3>Pro</h3>
+            <p class="price">9 € / mois</p>
+            <ul>
+              <li>Domaine personnalisé</li>
+              <li>Formulaire + emails</li>
+              <li>Analytics simples</li>
+            </ul>
+            <a href="#" class="btn primary">Choisir</a>
+          </div>
+          <div class="plan">
+            <h3>Entreprise</h3>
+            <p class="price">Sur devis</p>
+            <ul>
+              <li>Support prioritaire</li>
+              <li>Intégrations</li>
+              <li>Conseil</li>
+            </ul>
+            <a href="#" class="btn outline">Contacter</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="a-propos" class="section">
+      <div class="container">
+        <h2>À propos</h2>
+        <div class="about">
+          <p><strong>Mon Site</strong> est un modèle conçu pour démarrer vite. Remplacez le texte, ajoutez vos images, supprimez les sections qui ne servent pas — publiez.</p>
+          <p>Hébergement gratuit recommandé : <em>GitHub Pages</em>, <em>Netlify</em> ou <em>Vercel</em>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="intro">Formulaire prêt à l’emploi (option Formspree / Netlify). Remplacez <code>VOTRE_ENDPOINT</code>.</p>
+        <form class="contact-form" method="post" action="https://formspree.io/f/VOTRE_ENDPOINT">
+          <div class="form-row">
+            <label>Nom <input type="text" name="name" required></label>
+            <label>Email <input type="email" name="email" required></label>
+          </div>
+          <label>Message <textarea name="message" rows="5" required></textarea></label>
+          <button class="btn primary" type="submit">Envoyer</button>
+          <p class="form-note">En envoyant, vous acceptez notre <a href="#">politique de confidentialité</a>.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Mon Site — Tous droits réservés.</p>
+      <nav class="footer-nav">
+        <a href="#a-propos">À propos</a>
+        <a href="#contact">Contact</a>
+        <a href="#">Mentions légales</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
